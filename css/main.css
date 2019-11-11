@@ -37,6 +37,7 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1em;
 }
 
 blockquote {
@@ -55,12 +56,18 @@ body {
 }
 
 h1 {
-  margin: 0;
+  margin-top: .5rem;
+  margin-bottom: 0;
 }
 
 article p {
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
+}
+
+header p {
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 1.3em;
 }
 
 article ol {
