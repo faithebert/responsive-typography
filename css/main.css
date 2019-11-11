@@ -62,7 +62,7 @@ h1 {
 
 article p {
   margin-top: 1.3em;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.5em;
 }
 
 header p {
@@ -74,11 +74,20 @@ article ol {
   padding-left: 1rem;
 }
 
+blockquote {
+  max-width: 24em;
+  margin-left: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  p {
+    margin-bottom: 1.4em;
   }
 
 }
