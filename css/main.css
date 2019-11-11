@@ -58,15 +58,22 @@ h1 {
   margin: 0;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
 @media only screen and (min-width: 38em) {
   body {
     font-size: 1.1em;
+    line-height: 1.5em;
   }
 }
 
 @media only screen and (min-width: 60em) {
   body {
     font-size: 1.2em;
+    line-height: 1.7em;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -80,5 +87,6 @@ h1 {
 @media only screen and (min-width: 90em) {
   body {
     font-size: 1.3em;
+    line-height: 1.9em;
   }
 }
