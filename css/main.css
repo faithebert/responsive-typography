@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: "Crimson Text", serif;
+  font: normal 100%/1.3 "Crimson Text", serif;
   color: #222;
 }
 
@@ -70,17 +70,17 @@ article ol {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 1.1em;
-    line-height: 1.5em;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  body {
-    font-size: 1.2em;
-    line-height: 1.7em;
+  html {
+    font-size: 120%;
+    line-height: 1.5;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -94,9 +94,8 @@ article ol {
 
 @media only screen and (min-width: 90em) {
 
-  body {
-    font-size: 1.3em;
-    line-height: 1.9em;
+  html {
+    font-size: 130%;
   }
 
 }
